@@ -85,7 +85,6 @@ article#artido-inteno{
 width:100%;
 float:left;
 }
-
 aside#imagens{
 width:300px;
 float:right;
@@ -93,9 +92,9 @@ float:right;
 .imagem{
 width:300px;
 }
-.video {
+.video{
 width:560px;
-heigth:325px;
+heigth:350px;
 }
 .mapa{
 width:700px;
