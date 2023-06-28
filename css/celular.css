@@ -35,7 +35,7 @@ div#interface{
 }
 
 aside#logo-menu{
-    width:220px;
+    width:100%;
 }
 header{
      width:100%;
@@ -57,7 +57,7 @@ border-bottom:0.2rem solid #ccc;
 
 nav ul li a{
 pedding:2rem 0rem 2rem 2rem;
-background-color:#333
+background-color:#333;
 color:#fff;
 text-deroration:none;
 display:block;
@@ -70,36 +70,28 @@ background-color:#cecece;
 text-indent:4rem;
 }
 section{
-
-    width:700px;
-    float:right;
+    width:100%;
 }
 
-article#texto{
-width:380px;
-float:left;
-}
-article#artido-inteno{
+article#texto, article#artido-inteno{
 width:100%;
-float:left;
 }
+
 aside#imagens{
-width:300px;
-float:right;
+width:100%;
 }
 .imagem{
-width:300px;
+width:70%;
 }
 .video{
-width:560px;
-heigth:350px;
+width:784;
+heigth:441px;
 }
 .mapa{
-width:700px;
-heigth:450px;
+width:800px;
+heigth:1000px;
 }
 footer{
-clear:both;/*limpa o efeito dos flout anterior*/
 width:100%;
 line-heigth:50px;
 text-align:right;
@@ -109,5 +101,6 @@ border-top:1px solid #333;
 footer a{
 color:#000;
 text-decoration: none;
-font-size:10pt;
+font-size:1.7rem;
+font-style:italic;
 }
